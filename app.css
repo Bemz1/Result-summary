@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+    width: 40%;
+    box-shadow: 5px 5px 15px hsl(241, 100%, 89%);
+    border-radius: 25px;
+
+}
+
+.leftContent {
+    width: 50%;
+    text-align: center;
+    padding: 20px 10px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(221, 100%, 96%);
+    border-radius: 20px;
+}
+
+.rightContent {
+    width: 50%;
+    padding: 20px 20px;
+}
+
+p {
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.resultName {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.number1 {
+    display: block;
+    font-size: 25px;
+}
+
+.circle {
+    height: 135px;
+    width: 135px;
+    border-radius: 67.5px;
+    text-align: center;
+    padding: 30px;
+    margin: 15px auto 20px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.gClass {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.comment {
+    padding: 0 40px;
+}
+
+.summary {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+}
+
+.class1 {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.class2 {
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+}
+
+.left {
+    width: 70%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right {
+    width: 30%;
+    color: hsl(224, 30%, 27%);
+}
+
+.score {
+    font-weight: 700;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        display: block;
+    }
+
+    .mainContent {
+        width: 100%;
+        display: block;
+    }
+
+    .leftContent {
+        width: 100%;
+    }
+
+    .rightContent {
+        width: 100%;
+    }
+}
